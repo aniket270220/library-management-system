@@ -11,7 +11,7 @@ interface Book {
   issued_to: string | null;
 }
 
-const API_BASE = "http://127.0.0.1:8000/api";
+const API_BASE = "https://library-management-system-zodx.onrender.com/api";
 
 export default function App() {
   const [books, setBooks] = useState<Book[]>([]);
